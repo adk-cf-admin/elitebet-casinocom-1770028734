@@ -1,0 +1,19 @@
+{
+  "name": "Elitebet",
+  "short_name": "Elitebet",
+  "theme_color": "",
+  "background_color": "#2F2D2D",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "_assets/images/1770026979-favicon.ico",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "splash_pages": null
+}

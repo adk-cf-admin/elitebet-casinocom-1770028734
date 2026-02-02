@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1770027038-elitebetcomau-1.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Elitebet — Sports Betting &amp; Casino Online AU | 24/7</title>
+    <meta name="description"
+          content="Play at Elitebet Australia's trusted betting platform. Enjoy 25+ sports, live racing, Same Game Multi, and instant payouts. Join thousands of winners today!
+">
+    <link rel="canonical" href="https://elitebet-casino.com">
+    <meta property="og:title" content="Elitebet — Sports Betting &amp; Casino Online AU | 24/7">
+    <meta property="og:description"
+          content="Play at Elitebet Australia's trusted betting platform. Enjoy 25+ sports, live racing, Same Game Multi, and instant payouts. Join thousands of winners today!
+">
+    <meta property="og:url" content="https://elitebet-casino.com">
+    <meta property="og:site_name" content="Elitebet — Sports Betting &amp; Casino Online AU | 24/7">
+    <meta property="og:locale" content="en-AU">
+    <meta property="og:image" content="_assets/images/1770027761-gemini-generated-image-fj59pmfj59pmfj59-removebg-preview.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="elitebet-casino.com">
+    <meta name="twitter:title" content="Elitebet — Sports Betting &amp; Casino Online AU | 24/7">
+    <meta name="twitter:description"
+          content="Play at Elitebet Australia's trusted betting platform. Enjoy 25+ sports, live racing, Same Game Multi, and instant payouts. Join thousands of winners today!
+">
+    <meta name="twitter:image" content="_assets/images/1770027761-gemini-generated-image-fj59pmfj59pmfj59-removebg-preview.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1770027785-favicon.ico" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en-AU">
+
+    <link rel="apple-touch-icon" href="_assets/images/1770026979-favicon.ico" sizes="96x96">
+    <link rel="icon" href="_assets/images/1770026979-favicon.ico" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1770027812-gemini-generated-image-fj59pmfj59pmfj59-removebg-preview.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://elitebet-casino.com" />
+    <link rel="alternate" hreflang="en" href="https://elitebet-casino.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#3E7700"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#FCDF4C"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#FCDF4C"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#3E7700"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#FCDF4C"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#222829"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://elitebet-casino.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1770027038-elitebetcomau-1.svg" alt="Elitebet Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Sign Up" id="navSignUp"> Sign Up </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Play Now" id="navPlayNow"> Play Now </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Australia's Premier Sports Betting &amp; Casino Platform</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonus Details</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Bonuses</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Rate</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">More Info</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Get</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Refresh
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Advantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup">Looking for a trusted Australian betting platform? We offer licensed sports betting with certified fairness, lightning-fast payouts, and expert support available 24/7. Here's what sets us apart:
+</li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Licensed by Racing NSW, Racing QLD, and Racing WA with verified operations</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">25+ sports including AFL, NRL, racing, cricket, basketball, and international events</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Same Game Multi builder combining multiple selections for enhanced odds and bigger wins</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Hot Bets feature tracking over 1,000 professional punters with validated win statistics</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Instant deposits and rapid withdrawals via Visa and MasterCard with bank-grade security  text</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Mobile-optimized platform with live streaming, countdown timers, and adaptive bet slips</p>
+                                </li>
+                                <li class="providersGroup">Join thousands of satisfied Australian punters enjoying secure betting and fast payouts. Our expert team is ready to assist you around the clock with personalized support.
+</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                                class="advantagesButton btn btn--large">Know more</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Elitebet App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1770027903-imockup-iphone-15-pro-max.webp" title="Elitebet Mobile"
+                                alt="Elitebet App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Elitebet App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Elitebet App" title="Elitebet App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Popular Games</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                            class="gamesButton btn btn--large">All Games</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About Elitebet Australia</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">We have been delivering premium betting experiences to Australian punters for over a decade. Our platform combines expertise in horse racing with comprehensive sports betting coverage. We proudly operate from one of Australia's greatest racecourses.
+</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Launched comprehensive multi-sport betting platform with 25+ disciplines</li>
+                                        <li class="historyItem">Introduced innovative Same Game Multi builder for AFL, NRL, and basketball</li>
+                                        <li class="historyItem">Implemented Hot Bets tracking system with 1,000+ professional punter insights</li>
+                                        <li class="historyItem">Expanded mobile platform with live streaming and real-time odds updates</li>
+                                    </ul>
+                                    <p class="historyDescription">We operate under strict Australian gaming regulations approved by Racing NSW, Racing Queensland, and Racing WA. Our platform uses advanced SSL encryption protecting your personal and financial data. All betting markets comply with the Interactive Gaming Act.
+We continue expanding our betting markets and technological capabilities. Our commitment to responsible gambling and customer safety remains paramount. Discover why Australian punters consistently choose us as their trusted betting partner.
+</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1770027924-nout.webp" alt="History" title="Elitebet Desktop"/></div>
+                        </div>
+                        <p class="historyDescription"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Comprehensive Betting Markets &amp; Options</h2>
+                        <div class="historyDescription"><h2>Your Complete Guide to Elitebet Betting Markets</h2>
+
+<p>We offer an extensive range of betting options designed to satisfy both casual punters and professional bettors. Our platform features comprehensive coverage of Australian and international sports, horse racing, and greyhound racing with competitive odds and diverse market selections. Whether you're backing your favourite AFL team or placing exotic bets on the Melbourne Cup, we provide the tools and markets you need to maximize your betting experience.</p>
+
+<h3>Premier Sports Betting Coverage</h3>
+
+<p>Our sports betting platform covers more than 25 different sporting disciplines with hundreds of markets available for major events. We specialize in Australian favorites including AFL, NRL Rugby League, Cricket, and Racing, while also offering comprehensive coverage of international sports like NBA Basketball, English Premier League Soccer, NFL American Football, and Tennis Grand Slams. Each sport features multiple betting options including head-to-head markets, margin betting, totals, and specialized prop bets tailored to specific game situations.</p>
+
+<p>We have revolutionized multi-betting with our Same Game Multi feature, allowing you to combine multiple selections from a single match into one wager with amplified odds. This innovative tool is available for AFL, NRL, Basketball, Cricket, Soccer, and Tennis, giving you the flexibility to build complex betting strategies within individual games. For example, you can combine a head-to-head winner with total points scored and specific player performance outcomes all in one bet slip.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>AFL Aussie Rules Football:</strong> Comprehensive markets including premiership futures, head-to-head, line betting, total points, margin ranges, first goalscorer, and quarter-by-quarter outcomes with Same Game Multi options.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>NRL Rugby League:</strong> Extensive coverage featuring match winners, handicaps, totals, half-time leaders, anytime tryscorers, and specialized markets like winning margin brackets and player performance props.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Basketball NBA & NBL:</strong> Over 400 markets per game including moneyline, spreads, totals, player points, rebounds, assists, three-pointers made, and team performance statistics with live betting opportunities.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Cricket International & Domestic:</strong> Complete betting options for Test matches, ODIs, and T20s featuring match winners, top batsman, top bowler, series outcomes, and specialized markets like method of dismissal.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Soccer International Leagues:</strong> Coverage of Premier League, Champions League, La Liga, Serie A, and A-League with markets for match results, both teams to score, correct scores, and goal scorers.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Tennis Grand Slams & ATP:</strong> Tournament winners, match betting, set betting, total games, handicaps, and in-play markets with live streaming for major events throughout the tennis season.</li>
+</ul>
+
+<h3>Horse Racing & Greyhound Betting Excellence</h3>
+
+<p>We have built our reputation on exceptional horse racing coverage, offering both tote and fixed-odds betting across Australian and international racing venues. Our platform provides access to thoroughbred racing from prestigious tracks including Flemington, Randwick, and Caulfield, as well as international meetings from the UK, USA, South Africa, and Hong Kong. We also feature comprehensive greyhound racing from venues like Cannington, Wentworth Park, and Sandown Park with daily racing opportunities.</p>
+
+<p>Our racing platform includes sophisticated tools to enhance your betting experience. The Next-Up feature displays all upcoming races with countdown timers that turn red when events are five minutes from jump time, ensuring you never miss a betting opportunity. We offer extensive exotic betting options including quinellas, exactas, trifectas, first fours, and running doubles, allowing you to construct complex betting strategies with potentially lucrative payouts.</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-size: 14px; font-family: sans-serif; color: #ffffff;">
+  <thead>
+    <tr style="background-color: #ffd700;">
+      <th style="border: 1px solid #ffffff; padding: 8px; text-align: left; color: #000000; font-weight: bold;">Sport</th>
+      <th style="border: 1px solid #ffffff; padding: 8px; text-align: left; color: #000000; font-weight: bold;">Markets</th>
+      <th style="border: 1px solid #ffffff; padding: 8px; text-align: left; color: #000000; font-weight: bold;">SGM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #151515;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>AFL</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">150+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">Yes</td>
+    </tr>
+    <tr style="background-color: #262626;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>NRL</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">120+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">Yes</td>
+    </tr>
+    <tr style="background-color: #151515;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>Basketball</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">400+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">Yes</td>
+    </tr>
+    <tr style="background-color: #262626;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>Cricket</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">100+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">Yes</td>
+    </tr>
+    <tr style="background-color: #151515;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>Soccer</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">80+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">Yes</td>
+    </tr>
+    <tr style="background-color: #262626;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>Tennis</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">60+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">Yes</td>
+    </tr>
+    <tr style="background-color: #151515;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>Racing</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">50+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">No</td>
+    </tr>
+    <tr style="background-color: #262626;">
+      <td style="border: 1px solid #ffffff; padding: 8px;"><strong>Golf</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">40+</td>
+      <td style="border: 1px solid #ffffff; padding: 8px;">No</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Hot Bets Professional Insights</h3>
+
+<p>Our exclusive Hot Bets feature provides access to betting intelligence from over 1,000 professional punters and media experts with independently recorded and validated performance statistics. This powerful tool allows you to back the selections of winning bettors, leveraging their expertise and research to inform your own betting decisions. Each Hot Bet displays the expert's historical success rate, recent form, and detailed reasoning behind their selection, giving you transparency and confidence in your wagering choices.</p>
+
+<p>We track and display real-time statistics for each professional punter including their strike rate, profit-on-turnover, and specialization areas. You can filter Hot Bets by sport, betting type, odds range, and expert performance metrics to find selections that match your betting preferences and risk tolerance. This feature has become invaluable for punters looking to enhance their betting knowledge while potentially increasing their winning opportunities through expert guidance.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Verified expert statistics:</strong> All professional punter performance data is independently recorded and validated with transparent historical records available for review before following any selection.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Diverse specialist coverage:</strong> Our network includes experts specializing in specific sports, racing types, and betting markets, ensuring comprehensive coverage across all available wagering options.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Detailed selection rationale:</strong> Each Hot Bet includes the expert's analysis explaining why they favor particular outcomes, helping you understand betting strategies and market dynamics.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>One-click bet placement:</strong> You can instantly add any Hot Bet to your bet slip with a single click, streamlining the betting process while maintaining control over stake amounts.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Performance filtering tools:</strong> Sort and filter experts by recent form, long-term results, sport specialization, and odds preferences to find selections matching your betting strategy.</li>
+</ul>
+
+<h3>Futures Markets & Tournament Betting</h3>
+
+<p>We offer extensive futures markets for major Australian and international sporting tournaments, allowing you to place long-term bets on championship winners, finals participants, and seasonal awards. Our AFL futures include premiership winner, top four finishers, Coleman Medal winner, and Brownlow Medal betting. NBA futures cover championship winner, conference winners, MVP awards, and playoff qualifiers with competitive odds updated regularly throughout the season.</p>
+
+<p>Cricket World Cup betting features tournament winner, top run scorer, leading wicket taker, and stage-by-stage progression markets. Tennis Grand Slam futures include tournament winners for men's and women's singles, with additional markets for set betting and bracket predictions. We also provide futures for golf majors, rugby internationals, and soccer tournaments including the FIFA World Cup, European Championships, and domestic league winners with attractive early-season odds.</p>
+
+<h3>Live Betting & In-Play Markets</h3>
+
+<p>Our live betting platform delivers real-time wagering opportunities across major sporting events with dynamically updated odds reflecting current game situations. We offer in-play betting for AFL, NRL, basketball, cricket, tennis, and soccer with multiple markets available during matches including next goalscorer, next point winner, and updated match outcomes. Our mobile platform ensures seamless live betting with instant bet confirmation and real-time settlement for qualifying markets.</p>
+
+<p>We provide live streaming for selected racing and sporting events, allowing you to watch and bet simultaneously from a single platform. Our Next-Up countdown feature helps you track upcoming races and matches, while our adaptive bet slip automatically adjusts odds for in-play selections ensuring you always receive current pricing. Live betting adds excitement and strategy to your wagering experience, enabling you to respond to game developments and capitalize on shifting momentum.</p>
+
+<h3>Exotic Bets & Advanced Strategies</h3>
+
+<p>We cater to experienced punters seeking advanced betting strategies with our comprehensive exotic betting options. Same Race Multis allow you to combine multiple selections from a single race into one bet with multiplied odds, while Same Game Multis enable complex sport betting strategies within individual matches. Our racing exotics include quinellas, exactas, trifectas, first fours, quadrellas, and running doubles, each offering different risk-reward profiles suited to various betting approaches.</p>
+
+<p>You can construct multi-leg bets across different races and events using our intuitive bet slip builder, which automatically calculates potential returns and displays all active selections. We support tote and fixed-odds betting for racing, giving you flexibility in choosing your preferred betting style and potentially accessing better value depending on market conditions. Our platform handles all exotic bet calculations automatically, ensuring accurate pricing and straightforward bet placement regardless of complexity.</p>
+</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Software Providers </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Banking, Security &amp; Customer Support</h2>
+                        <div class="historyDescription"><h2>Secure Banking & Professional Support Services</h2>
+
+<p>We prioritize your financial security and betting convenience through advanced banking solutions and comprehensive customer support. Our platform implements industry-leading security protocols protecting your personal information and financial transactions, while our dedicated support team ensures you receive expert assistance whenever needed. We have designed our banking system to deliver rapid deposits and withdrawals, minimizing waiting times and maximizing your betting flexibility across all account operations.</p>
+
+<h3>Safe & Convenient Payment Methods</h3>
+
+<p>We accept secure deposits and withdrawals through trusted payment methods including Visa and MasterCard debit cards. These internationally recognized banking options work with military-grade SSL encryption technology to protect your financial data during all transactions. Our payment processing system complies with Australian financial regulations and banking standards, ensuring your funds are handled with maximum security and regulatory compliance at every step.</p>
+
+<p>Deposits are processed instantly, allowing you to fund your account and start betting immediately without delays. We do not charge transaction fees for deposits or withdrawals, ensuring you retain maximum value from your betting activity. Our minimum deposit requirements are designed to accommodate casual punters while our withdrawal processes are optimized for speed, with most requests processed within hours rather than days depending on your bank's processing times.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Instant deposit processing:</strong> All deposits via Visa and MasterCard are credited to your account immediately, allowing you to place bets without waiting for payment confirmation.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Rapid withdrawal system:</strong> We process withdrawal requests quickly with funds typically returned to your card within hours, ensuring you receive your winnings promptly.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Zero transaction fees:</strong> We cover all processing costs for deposits and withdrawals, ensuring you never pay fees for managing your betting account balance.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>SSL encryption protection:</strong> All financial transactions use bank-grade encryption technology, safeguarding your card details and personal information from unauthorized access.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Flexible betting limits:</strong> Our banking system supports both small casual bets and larger professional wagers, accommodating diverse betting styles and bankroll sizes.</li>
+</ul>
+
+<h3>Regulatory Compliance & Licensing</h3>
+
+<p>We operate under strict Australian gaming regulations with official approval from Racing New South Wales, Racing Queensland, and Racing and Wagering Western Australia. These regulatory bodies oversee our operations ensuring we maintain the highest standards of customer protection, fair betting practices, and financial accountability. Our licensing arrangements demonstrate our commitment to legal compliance and ethical betting operations within Australia's regulated gambling framework.</p>
+
+<p>We adhere to the Interactive Gaming Act of Australia, which establishes comprehensive requirements for online betting operators including age verification, responsible gambling measures, and customer account protection. Racing NSW actively monitors how we handle customer accounts and betting transactions, providing additional oversight that protects your interests as a punter. You can contact our regulators directly if you ever have concerns about our services, ensuring independent accountability beyond our internal customer support systems.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Triple regulatory approval:</strong> We hold active licenses from Racing NSW, Racing Queensland, and Racing WA, demonstrating our compliance with Australia's strictest betting regulations.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Interactive Gaming Act compliance:</strong> All our operations strictly follow federal legislation governing online betting, ensuring legal and ethical service delivery to Australian customers.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Mandatory identity verification:</strong> We require all customers to provide proof of identity preventing underage gambling and ensuring only eligible Australians access our betting services.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Independent regulatory oversight:</strong> Our licensed regulators actively monitor our business practices providing customers with independent protection and dispute resolution channels.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Regular compliance auditing:</strong> We undergo periodic reviews by regulatory authorities ensuring ongoing adherence to all licensing requirements and customer protection standards.</li>
+</ul>
+
+<h3>Advanced Security & Data Protection</h3>
+
+<p>We implement comprehensive security measures protecting your personal information, betting activity, and financial data from unauthorized access and cyber threats. Our platform uses SSL encryption technology encrypting all data transmitted between your device and our servers, ensuring hackers cannot intercept sensitive information during login, betting, or banking operations. We maintain secure servers with multiple redundancy systems protecting against data loss and ensuring uninterrupted service availability.</p>
+
+<p>Our security protocols include multi-layer authentication systems, regular security audits by independent cybersecurity experts, and continuous monitoring for suspicious activity. We never share your personal information with third parties except as required by Australian law or our regulatory obligations. Your betting history, account balances, and personal details are stored in encrypted databases with restricted access limited to authorized personnel requiring information for customer service purposes.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>SSL certificate encryption:</strong> We use industry-standard SSL certificates encrypting all communications between your browser and our servers, protecting login credentials and financial transactions.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Secure server infrastructure:</strong> Our hosting environment features firewalls, intrusion detection systems, and regular security updates preventing unauthorized access to customer data.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Privacy policy compliance:</strong> We strictly adhere to Australian privacy legislation protecting your personal information and providing transparency about data collection and usage practices.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Activity monitoring systems:</strong> We continuously monitor accounts for unusual activity patterns helping detect and prevent unauthorized access attempts or fraudulent transactions.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Encrypted database storage:</strong> All customer information is stored in encrypted databases with access restricted to authorized staff members requiring data for legitimate business purposes.</li>
+</ul>
+
+<h3>Customer Support Excellence</h3>
+
+<p>Our customer support team operates around the clock providing expert assistance with account questions, betting inquiries, technical issues, and general platform guidance. You can contact us through multiple channels including email, telephone, and our social media platforms where we maintain active presence on Facebook and Instagram. Our support staff are knowledgeable about all betting markets, platform features, and account management procedures, ensuring you receive accurate and helpful responses to your inquiries.</p>
+
+<p>We understand that betting questions often arise during live events or outside traditional business hours, which is why we maintain continuous support availability. Our team responds quickly to email inquiries typically within hours, while telephone support provides immediate assistance for urgent matters. We also monitor our social media channels where many customers share feedback and ask questions, ensuring you can reach us through your preferred communication method.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>24/7 availability:</strong> Our support team operates continuously ensuring you can get help whenever you need it, including during major sporting events and race meetings.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Multiple contact channels:</strong> Reach us via email, telephone, Facebook, or Instagram using whichever communication method you find most convenient for your needs.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Expert betting knowledge:</strong> Our support staff understand all sports markets, racing options, and platform features providing informed assistance for both simple and complex inquiries.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Fast response times:</strong> We prioritize quick replies to all customer inquiries with email responses typically delivered within hours and immediate telephone assistance available.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Account management help:</strong> Get assistance with deposits, withdrawals, identity verification, bet settlement questions, and any other account-related matters from our dedicated team.</li>
+</ul>
+
+<h3>Mobile Platform & App Features</h3>
+
+<p>Our mobile platform delivers the full betting experience optimized for smartphones and tablets, allowing you to bet on sports and racing from anywhere in Australia. We offer dedicated iOS and Android applications featuring streamlined interfaces designed specifically for touchscreen devices. The mobile apps include all desktop functionality including Same Game Multi builder, Hot Bets access, live betting, bet slip management, and account operations in a pocket-sized format.</p>
+
+<p>Our mobile applications feature adaptive bet slips that automatically adjust to your screen size, countdown timers with color-coded alerts for upcoming races, and push notifications for bet settlements and promotional offers. You can watch live streams of selected events directly within the app, manage your betting history, check real-time odds updates, and access customer support without switching to desktop. The mobile platform maintains the same security standards as our desktop site ensuring safe betting wherever you are.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Native iOS and Android apps:</strong> Download our dedicated applications from the App Store or Google Play for optimized performance and seamless integration with your mobile device.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Complete feature parity:</strong> Access all betting markets, account functions, payment options, Hot Bets, and Same Game Multi features available on desktop through your mobile device.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Next-Up countdown feature:</strong> Visual countdown timers show all upcoming races and matches with color alerts when events approach start time ensuring you never miss betting opportunities.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Live streaming integration:</strong> Watch selected racing and sporting events directly within the app while simultaneously placing bets and monitoring your active wagers.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Push notification alerts:</strong> Receive instant updates about bet settlements, promotional offers, major race meetings, and important account activities directly to your mobile device.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Touchscreen optimization:</strong> Our mobile interface is specifically designed for finger navigation with large touch targets, swipe gestures, and intuitive layouts maximizing usability on smaller screens.</li>
+</ul>
+
+<h3>Responsible Gambling Commitment</h3>
+
+<p>We are deeply committed to promoting responsible gambling and providing tools to help you maintain control over your betting activity. Our platform includes features allowing you to set deposit limits, loss limits, and session time restrictions protecting you from excessive gambling. We provide easy access to gambling help resources and support services for customers who may be experiencing gambling-related problems or concerns about their betting behavior.</p>
+
+<p>We take our regulatory obligations seriously, implementing age verification procedures ensuring only customers aged eighteen and over can access our betting services. Our staff receive training to identify problem gambling behaviors and provide appropriate support or referrals to professional gambling counseling services. We believe gambling should be an entertaining leisure activity and we actively work to prevent it from becoming harmful to our customers or their families.</p>
+
+<ul style="padding-left: 25px; margin-bottom: 15px; list-style-position: outside;">
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Self-imposed limits:</strong> Set your own deposit limits, loss limits, and wagering restrictions through your account settings helping you maintain responsible betting habits.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Help resources access:</strong> We provide direct links to professional gambling support organizations including Gambling Help Online and Lifeline for customers needing assistance.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Self-exclusion options:</strong> If you need a break from betting, we offer self-exclusion programs allowing you to temporarily or permanently suspend your account access.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Age verification enforcement:</strong> We strictly verify all customers are at least eighteen years old through mandatory identity document checks preventing underage access to betting services.</li>
+  <li style="margin-bottom: 8px; line-height: 1.6; display: list-item; list-style-type: disc;"><strong>Education and awareness:</strong> We provide information about responsible gambling practices, warning signs of problem gambling, and strategies for maintaining healthy betting behaviors.</li>
+</ul>
+</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_do_i_create_an_account_with_elitebet"/><label
+                            class="faqLabel" for="how_do_i_create_an_account_with_elitebet">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How do I create an account with Elitebet? </span></label>
+                        <div class="faqContent">
+                            <p>Creating an account is simple and takes just minutes. Click the 'Join' button at the top of our homepage or app, enter your personal details including name, date of birth, and contact information, then provide proof of identity as required by Australian law. Once verified, you can make your first deposit and start betting immediately. Our support team is available if you need assistance during registration.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_sports_can_i_bet_on_at_elitebet"/><label
+                            class="faqLabel" for="what_sports_can_i_bet_on_at_elitebet">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What sports can I bet on at Elitebet? </span></label>
+                        <div class="faqContent">
+                            <p>We offer betting on over 25 different sports including AFL, NRL, horse racing, greyhound racing, basketball, cricket, tennis, soccer, golf, rugby union, NFL, boxing, MMA, cycling, and motorsports. You can access Australian domestic competitions and major international events with comprehensive market coverage. Our Same Game Multi feature is available for AFL, NRL, basketball, cricket, soccer, and tennis.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_does_the_same_game_multi_feature_work"/><label
+                            class="faqLabel" for="how_does_the_same_game_multi_feature_work">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How does the Same Game Multi feature work? </span></label>
+                        <div class="faqContent">
+                            <p>Our Same Game Multi builder allows you to combine multiple selections from a single match into one bet with enhanced odds. Simply select your sport, choose your match, then add multiple outcomes like match winner, total points, and player performances to your bet slip. Our system automatically calculates the combined odds for your multi-bet. This feature is available for AFL, NRL, basketball, cricket, soccer, and tennis matches.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_is_the_hot_bets_feature"/><label
+                            class="faqLabel" for="what_is_the_hot_bets_feature">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What is the Hot Bets feature? </span></label>
+                        <div class="faqContent">
+                            <p>Hot Bets gives you access to betting selections from over 1,000 professional punters and media experts with validated performance records. You can view each expert's statistics including strike rate, profit-on-turnover, and recent form before deciding whether to follow their selections. Each Hot Bet includes detailed analysis explaining the expert's reasoning. You can filter experts by sport, success rate, and betting style to find selections matching your preferences.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_long_do_withdrawals_take_to_process"/><label
+                            class="faqLabel" for="how_long_do_withdrawals_take_to_process">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How long do withdrawals take to process? </span></label>
+                        <div class="faqContent">
+                            <p>We process withdrawal requests rapidly, with most withdrawals approved within hours of submission. Once approved, funds are returned to your Visa or MasterCard debit card typically within the same business day, though your bank may take additional time to credit your account. We do not charge any fees for withdrawals. For specific questions about your withdrawal, contact our support team available around the clock.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="is_elitebet_licensed_and_regulated_in_australia"/><label
+                            class="faqLabel" for="is_elitebet_licensed_and_regulated_in_australia">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Is Elitebet licensed and regulated in Australia? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, we are fully licensed and regulated by Racing New South Wales, Racing Queensland, and Racing and Wagering Western Australia. We operate in compliance with the Interactive Gaming Act and all applicable Australian gambling regulations. Our licensed status ensures we maintain strict standards for customer protection, fair betting practices, and financial security. You can verify our licensing status with our regulatory authorities at any time.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_payment_methods_do_you_accept"/><label
+                            class="faqLabel" for="what_payment_methods_do_you_accept">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What payment methods do you accept? </span></label>
+                        <div class="faqContent">
+                            <p>We accept deposits and withdrawals via Visa and MasterCard debit cards. These payment methods offer instant deposits allowing you to fund your account and start betting immediately. All transactions are protected by SSL encryption technology ensuring your financial information remains secure. We do not charge transaction fees for deposits or withdrawals. Minimum deposit amounts apply to accommodate various betting budgets.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="can_i_bet_on_my_mobile_phone_or_tablet"/><label
+                            class="faqLabel" for="can_i_bet_on_my_mobile_phone_or_tablet">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Can I bet on my mobile phone or tablet? </span></label>
+                        <div class="faqContent">
+                            <p>Absolutely. We offer dedicated iOS and Android applications providing the complete betting experience optimized for mobile devices. Our apps include all features available on desktop including Same Game Multi, Hot Bets, live betting, live streaming, and full account management. The mobile platform features adaptive bet slips, countdown timers, and push notifications for settlements and promotions. Download our app from the App Store or Google Play.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="do_you_offer_any_promotions_for_existing_customers"/><label
+                            class="faqLabel" for="do_you_offer_any_promotions_for_existing_customers">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Do you offer any promotions for existing customers? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, we regularly provide promotions for existing customers including money-back specials on popular sports and key racing meets. Australian legislation prohibits sign-up bonuses, but we offer ongoing value through race refunds, enhanced odds, and special event promotions. Check our promotions page after logging in to view all current offers. We update our promotions frequently to provide exciting opportunities across different sports and racing events.
+</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_can_i_contact_customer_support"/><label
+                            class="faqLabel" for="how_can_i_contact_customer_support">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How can I contact customer support? </span></label>
+                        <div class="faqContent">
+                            <p>Our customer support team is available around the clock to assist you. Contact us via email for detailed inquiries, telephone for immediate assistance, or through our Facebook and Instagram social media channels. Our support staff are knowledgeable about all betting markets, platform features, and account procedures. We typically respond to email inquiries within hours and provide instant telephone support for urgent matters requiring immediate attention.
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://elitebet-casino.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1770027743-elitebetcomau-1.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Elitebet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Elitebet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Elitebet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Elitebet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Elitebet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Elitebet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Elitebet" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Elitebet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Elitebet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Elitebet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Elitebet" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Elitebet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Elitebet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Elitebet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Elitebet" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Elitebet </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "Get Bonus";
+    var playNowText = "Play now";
+    var maximumAmountText = "Maximum amount";
+    var wagerText = "Wager";
+    var bonusCodeText = "Bonus Code";
+    var depositText = "";
+    var casinoName = "Elitebet";
+</script>
+
+</body>
+</html>
